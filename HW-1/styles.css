@@ -1,13 +1,13 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url("imgs/MapHero.jpg");
+    background-image: url("imgs/water.JPG");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /* Description Rules */
@@ -41,7 +41,7 @@ body {
     /* as a percentage of the viewport height (vh) */
     height: 100vh;
     min-height: 740px;
-    background-image: url("MapHero.jpg");
+    background-image: url("imgs/water2.JPG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,32 +49,32 @@ body {
 }
 
 .hero .title {
-    font-size: 20pt;
-    color: white;
+    font-size: 22pt;
+    color: #fff;
     float: right;
-    margin-top: 100px;
+    margin-top: 170px;
     margin-left: 1em;
     margin-right: 1em;
     padding: 2em;
     text-align: center;
-    background-color: rgba(215, 237, 209, 0.8);
+    background-color: rgba(120, 120, 120, 0.7);
 }
 
 .title h1 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Princess Sofia', cursive;
     font-size: 2.5em;
     letter-spacing: 0.2em;
 }
 
 .title h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-style: italic;
     line-height: 0.5em;
 }
 
 .hero .nav {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
     font-weight: 300;
     color: #fff;
@@ -92,7 +92,6 @@ body {
 
 .hero .nav-item {
     font-size: 0.5em;
-    max-height: 20pt;
     padding: 0.5em 1em;
     margin: 0 0.5em;
     text-align: center;
@@ -102,7 +101,7 @@ body {
 
 .hero .nav-item:hover {
     color: #fff;
-    background-color: rgba(215, 237, 209, 0.8);
+    background-color: rgba(207, 200, 222, 0.5);
 }
 
 
@@ -139,7 +138,7 @@ body {
     padding: 2em;
     background-color: rgb(61, 61, 61);
     color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
     text-align: center;
@@ -147,7 +146,7 @@ body {
 }
 
 .menu h1 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Princess Sofia', cursive;
 }
 
 .menu .menu-group-container {
@@ -157,7 +156,7 @@ body {
     justify-content: space-around;
 }
 .menu .menu-group {
-    padding: 1em;
+    padding: 2em;
     min-width: 300px;
     max-width: 500px;
 }
@@ -165,7 +164,7 @@ body {
 .menu .menu-head {
     font-style: italic;
     font-size: 2em;
-    padding: .5em;
+    padding: 1em;
 }
 
 .menu .menu-item {
