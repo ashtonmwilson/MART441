@@ -91,18 +91,23 @@ body {
 }
 
 .hero .nav-item {
-    font-size: 0.5em;
-    max-height: 20pt;
+    /*max-height: 20pt;*/
     padding: 0.5em 1em;
     margin: 0 0.5em;
     text-align: center;
-    border: 1px solid #d9d9d9;
-    border-width: 1px 0;
+    /*border: 1px solid #d9d9d9;*/
+    /*border-width: 1px 0;*/
 }
 
 .hero .nav-item:hover {
     color: #fff;
     background-color: rgba(215, 237, 209, 0.8);
+    /* animation trick, I had working on another page, can't get it to work here...
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function:ease-in-out; */
 }
 /* attempted resizing of icons in css*/
 /*.hero .nav-item .icon {
@@ -112,6 +117,7 @@ body {
 /*.icon {
   max height: 10pt;
 }*/
+
 
 @media (max-width: 865px) {
     .hero {

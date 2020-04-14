@@ -22,7 +22,7 @@ console.log ('Favorite Artists: \n' +
 
 
 /*
-Author: Jabberwocky
+Author: Ashton Wilson
 File Name:Home work 2
 Date: pandemic day ???
 a whole bunch of comments
