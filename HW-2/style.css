@@ -104,7 +104,14 @@ body {
     color: #fff;
     background-color: rgba(215, 237, 209, 0.8);
 }
+/* attempted resizing of icons in css*/
+/*.hero .nav-item .icon {
+  height: 20pt;
+  width: 20pt; */
 
+/*.icon {
+  max height: 10pt;
+}*/
 
 @media (max-width: 865px) {
     .hero {
