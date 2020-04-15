@@ -102,7 +102,7 @@ body {
 .hero .nav-item:hover {
     color: #fff;
     background-color: rgba(215, 237, 209, 0.8);
-    /* animation trick, I had working on another page, can't get it to work here...
+    /* animation trick, I had working in another page, can't get it to work here...
     animation-name: spin;
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
