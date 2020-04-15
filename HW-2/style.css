@@ -41,7 +41,7 @@ body {
     /* as a percentage of the viewport height (vh) */
     height: 100vh;
     min-height: 740px;
-    background-image: url("MapHero.jpg");
+    background-image: url("imgs/MapHero.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,12 +91,13 @@ body {
 }
 
 .hero .nav-item {
-    /*max-height: 20pt;*/
+    font-size: 0.5em;
+    /* max-height: 20pt;*/
     padding: 0.5em 1em;
     margin: 0 0.5em;
     text-align: center;
-    /*border: 1px solid #d9d9d9;*/
-    /*border-width: 1px 0;*/
+    border: 1px solid #d9d9d9;
+    border-width: 1px 0;
 }
 
 .hero .nav-item:hover {
