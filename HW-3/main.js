@@ -27,8 +27,8 @@ function menuFunction(choice) {
     else if (choice == 1 && answer1 == "Donuts") {
         document.getElementById("story").innerHTML = "Strangest thing, the donuts gave you a fast burst of energy, but it's fading...";
         document.getElementById("option1").style.display = "none";
-        document.getElementById("option2").innerHTML = "Sleep";
-        document.getElementById("option3").innerHTML ="Work";
+        document.getElementById("option2").innerHTML = "Sleep more";
+        document.getElementById("option3").innerHTML = "Wonkey";
     }
     else if (choice == 1 && answer1 == "manual labor") {
         document.getElementById("story").innerHTML = "Wow, you really are 'of the people' <br> but all that labor sure has you tired";
