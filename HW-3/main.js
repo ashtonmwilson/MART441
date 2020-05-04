@@ -34,14 +34,16 @@ function menuFunction(choice) {
         document.getElementById("option3").innerHTML = "Work";
     }
     else if (choice == 1 && answer1 == "manual labor") {
-        document.getElementById("story").innerHTML = "Wow, you really are 'of the people' <br> but all that labor sure has you tired";
+        document.getElementById("story").innerHTML = "Wow, you really are 'of the people' <br> but all that labor sure has you tired"+", and hungry";
         document.getElementById("option1").innerHTML = "Eat";
+        document.getElementById("option2").style.display = "initial";
         document.getElementById("option2").innerHTML = "Sleep";
         document.getElementById("option3").style.display = "none";
     }
     else if (choice == 3 && answer3 == "sit down and compute") {
         document.getElementById("story").innerHTML = "wow how time flies, <br> It's been days since you slept, or moved. <br> Luckily the brightness on your monitor is above 2700 kelvin, <br> so you're not even tired... what to do? ";
         document.getElementById("option1").innerHTML = "Eat";
+        document.getElementById("option2").style.display = "initial";
         document.getElementById("option2").innerHTML = "Sleep";
         document.getElementById("option3").innerHTML = "Work";
     }
