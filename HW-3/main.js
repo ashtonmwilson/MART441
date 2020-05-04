@@ -8,8 +8,8 @@ function menuFunction(choice) {
     if (choice == 1 && answer1 == "Eat") {
         document.getElementById("story").innerHTML = "Smart "+"desicion might as well break that fast...";
         document.getElementById("option1").innerHTML = "Donuts";
-        document.getElementById("option2").style.visibility = "hidden";
-        document.getElementById("option3").style.visibility = "hidden";
+        document.getElementById("option2").style.display = "none";
+        document.getElementById("option3").style.display = "none";
     }
     else if (choice == 2 && answer2 == "Sleep") {
         document.getElementById("story").innerHTML = " Strangely familiar... You have just emerged from a deep sleep, time to make some descions.";
@@ -20,13 +20,16 @@ function menuFunction(choice) {
 
     else if (choice == 3 && answer3 == "Work") {
         document.getElementById("story").innerHTML = "One man's work is another man's... "+"torture";
+        document.getElementById("option1").style.display = "initial";
         document.getElementById("option1").innerHTML = "manual labor";
-        document.getElementById("option2").display = "none";
+        document.getElementById("option2").style.display = "none";
         document.getElementById("option3").innerHTML = "sit down and compute";
     }
     else if (choice == 1 && answer1 == "Donuts") {
         document.getElementById("story").innerHTML = "Strangest thing, the donuts gave you a fast burst of energy, but it's fading...";
-        document.getElementById("option1").innerHTML = "Eat";
+        document.getElementById("option1").style.display = "none";
+        document.getElementById("option2").style.display = "initial";
+        document.getElementById("option3").style.display = "initial";
         document.getElementById("option2").innerHTML = "Sleep";
         document.getElementById("option3").innerHTML = "Work";
     }
