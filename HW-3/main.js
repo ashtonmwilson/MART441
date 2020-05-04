@@ -1,4 +1,4 @@
-// console.log("testing\""\\n\"." as anew line" ); ya... if you can explain how to see this actually work, that would be great... I cannot get /n/ to work at all... there is also no use of it in any of the interactive shels on the course site. 
+// console.log("testing\""\\n\"." as anew line" ); ya... if you can explain how to see this actually work, that would be great... I cannot get /n/ to work at all... there is also no use of it in any of the interactive shels on the course site.
 //console.log("testing math"+"half of 100is ${100/2}");
 //console.log("")
 function menuFunction(choice) {
@@ -17,7 +17,8 @@ function menuFunction(choice) {
         document.getElementById("option2").innerHTML = "Sleep";
         document.getElementById("option3").innerHTML = "Work";
     }
-    else if (coice == 3 && answer3 == "Work") {
+
+    else if (choice == 3 && answer3 == "Work") {
         document.getElementById("story").innerHTML = "One man's work is another man's... "+"torture";
         document.getElementById("option1").innerHTML = "manual labor";
         document.getElementById("option2").display = "none";
