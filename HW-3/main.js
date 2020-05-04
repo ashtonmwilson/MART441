@@ -26,7 +26,7 @@ function menuFunction(choice) {
     }
     else if (choice == 1 && answer1 == "Donuts") {
         document.getElementById("story").innerHTML = "Strangest thing, the donuts gave you a fast burst of energy, but it's fading...";
-        document.getElementById("option1").style.visibility = "hidden";
+        document.getElementById("option1").innerHTML = "Eat";
         document.getElementById("option2").innerHTML = "Sleep";
         document.getElementById("option3").innerHTML = "Work";
     }
