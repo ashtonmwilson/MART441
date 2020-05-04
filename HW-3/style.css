@@ -1,0 +1,20 @@
+
+ body {
+    padding: 0;
+    margin: 30pt;
+    background-color: black;
+    color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    align-content: center;
+}
