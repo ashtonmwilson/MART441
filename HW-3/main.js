@@ -8,8 +8,8 @@ function menuFunction(choice) {
     if (choice == 1 && answer1 == "Eat") {
         document.getElementById("story").innerHTML = "Smart "+"desicion might as well break that fast...";
         document.getElementById("option1").innerHTML = "Donuts";
-        document.getElementById("option2").style.display = "none";
-        document.getElementById("option3").style.display = "none";
+        document.getElementById("option2").style.visibility = "hidden";
+        document.getElementById("option3").style.visibility = "hidden";
     }
     else if (choice == 2 && answer2 == "Sleep") {
         document.getElementById("story").innerHTML = " Strangely familiar... You have just emerged from a deep sleep, time to make some descions.";
@@ -26,9 +26,9 @@ function menuFunction(choice) {
     }
     else if (choice == 1 && answer1 == "Donuts") {
         document.getElementById("story").innerHTML = "Strangest thing, the donuts gave you a fast burst of energy, but it's fading...";
-        document.getElementById("option1").style.display = "none";
-        document.getElementById("option2").innerHTML = "Sleep more";
-        document.getElementById("option3").innerHTML = "Wonkey";
+        document.getElementById("option1").style.visibility = "hidden";
+        document.getElementById("option2").innerHTML = "Sleep";
+        document.getElementById("option3").innerHTML = "Work";
     }
     else if (choice == 1 && answer1 == "manual labor") {
         document.getElementById("story").innerHTML = "Wow, you really are 'of the people' <br> but all that labor sure has you tired";
