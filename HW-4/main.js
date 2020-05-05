@@ -1,6 +1,14 @@
 // console.log("testing\""\\n\"." as anew line" ); ya... if you can explain how to see this actually work, that would be great... I cannot get /n/ to work at all... there is also no use of it in any of the interactive shels on the course site.
 //console.log("testing math"+"half of 100is ${100/2}");
 
+/*var input = document.getElementById("choice");
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("inputbutton").click();
+    }
+});*/ //tried to make it so return key would actuate the button, but I guess it has to be a submit type input.
+
 function getChoice1()
   {
     var myChoice = document.getElementById("choice").value;

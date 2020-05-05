@@ -9,7 +9,7 @@
 }*/
 body {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
 }
 h1 {
@@ -28,8 +28,7 @@ h1 {
   position: relative;
   text-align: center;
   color: black;
-  text-shadow: 1px 1px white;
-  background-color: white;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }
 .buttondiv{
   position: relative;
