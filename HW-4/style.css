@@ -1,20 +1,43 @@
 
- body {
-    padding: 0;
-    margin: 30pt;
-    background-color: black;
-    color: white;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    text-align: center;
-}
-/*
+/* Could I still call out the Css in JS? or do I have to have this background image in HTML?
+ /*html {
+  background: url(imgs/gulfstream.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: beige;
-    align-content: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -210%);
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px white;
+  background-color: white;
+}
+.buttondiv{
+  position: relative;
+  text-align: center;
+
+}
+img{
+  margin: -30pt;
+  width: 110%;
+  height: 110%;
 }
