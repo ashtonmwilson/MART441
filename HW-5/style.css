@@ -17,7 +17,7 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -300%);
+  transform: translate(-50%, -210%);
 }
 .center {
   position: absolute;
@@ -28,8 +28,8 @@ h1 {
 .container {
   position: relative;
   text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  color: black;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }
 .buttondiv{
   position: relative;

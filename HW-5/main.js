@@ -8,14 +8,7 @@ input.addEventListener("keyup", function(event) {
         document.getElementById("inputbutton").click();
     }
 });*/ //tried to make it so return key would actuate the button, but I guess it has to be a submit type input.
-// I found this code here: https://www.codexworld.com/how-to/trigger-button-click-on-enter-key-press-javascript/
-function theForloop()
-{
-  for(var i=0; i < 1 ; i++)
-  {
-    document.write("<br>Did you know the naked eye can see this many stars:<br>");
-  }
-}
+
 function getChoice1()
   {
     var myChoice = document.getElementById("choice").value;
@@ -150,7 +143,3 @@ function getChoice5(choice)
       myStory.innerHTML = "Here we go on a flung festoon, <br> Half way up to the jealous.... <br> Would you like to go the <br> Moon? Mars? Jupiter? or... back to Earth?";
   }
 }
-function getAbsoluteValue(inParam1,inParam2)
-            {
-                return Math.abs(inParam1*inParam2);
-            }
