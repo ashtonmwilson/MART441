@@ -1,57 +1,33 @@
+<!-- copied form Mart441 git hup, then modified. -->
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>Ashton Wilson's Homework#3 Choose Your Own Adventure</title>
-  <meta name="author" content="Ashton Wilson">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="main.js"></script>
+    <title>Ashton Wilson's Homework#5 site</title>
+    <meta name="author" content="Ashton Wilson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    </link>
 </head>
-  <body>
 
-    <div class="container">
-      <img src="imgs/gulfstream.jpg" alt="Gulf Stream" id="bg">
-      <br>
-      <div class="center">
-        <h1>Why Hello</h1>
-          <div id="story">
-              <br>
-              Here we go on a flung festoon,
-              <br>
-              Half way up to the jealous....
-              <br>
-              Would you like to go the
-              <br>
-              Moon? Mars? Jupiter? or... back to Earth?
-              <br>
-            <!-- end of story div -->
-          </div>
-          <div id="buttondiv">
-              <br>
-              <input type="text" id="choice" size="15" value="Type a destination above">
-              <button id="inputbutton" onclick="getChoice1();" >Blast Off!</button>
+<body onload="printBlanks();">
+    <h1>Memory Game</h1>
 
-              <input type="text" id="choice2" size="15" value="Air or Water" style="display:none">
-              <button id="inputbutton2" onclick="getChoice2();" style="display:none" >Give thanks!</button>
 
-              <input type="text" id="choice3" size="20" value="Snickers or Resses" style="display:none">
-              <button id="inputbutton3" onclick="getChoice3();" style="display:none" >Chow Down!</button>
+    <div class="divTable">
+        <div class="divTableBody">
+            <div class="divTableRow">
+                <div class="divTableCell"><img src="imgs/face.png" id="image1" width="250" height="200" onclick="flipImage(0);"></div>
+                <div class="divTableCell"><img src="imgs/Pattern12.png" id="image2" width="250" height="200" onclick="flipImage(1);"></div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell"><img src="imgs/Pattern23.png" id="image3" width="250" height="200" onclick="flipImage(2);"></div>
+                <div class="divTableCell"><img src="imgs/Pattern34.png" id="image4" width="250" height="200" onclick="flipImage(3);"></div>
+            </div>
+        </div>
+    </div>
 
-              <input type="text" id="choice4" size="15" value="Gouda or Edam" style="display:none">
-              <button id="inputbutton4" onclick="getChoice4();" style="display:none" >Get Cheesy!</button>
-
-              <button id="inputbutton5" onclick="getChoice5(5);" style="display:none" >Return to Nowhere</button>
-
-          </div>
-      </div>
-  </div>
-    <!--<br>
-      <button id="option1" type="button" onclick="menuFunction(1);">Eat</button>&nbsp;
-      <button id="option2" type="button" onclick="menuFunction(2);">Sleep</button>
-      <button id="option3" type="button" onclick="menuFunction(3);">Work</button>
-      <br>-->
-</object>
 </body>
+
 </html>
