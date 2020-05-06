@@ -1,43 +1,30 @@
 
-/* Could I still call out the Css in JS? or do I have to have this background image in HTML?
- /*html {
-  background: url(imgs/gulfstream.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
-/* siting sources: i found this code here: https://css-tricks.com/perfect-full-page-background-image/ */
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
-  text-align: center;
+.divTable{
+	display: table;
+	width: 100%;
 }
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -210%);
+.divTableRow {
+	display: table-row;
 }
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
 }
-.container {
-  position: relative;
-  text-align: center;
-  color: black;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
 }
-.buttondiv{
-  position: relative;
-  text-align: center;
-
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
 }
-img{
-  margin: -30pt;
-  width: 110%;
-  height: 110%;
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
 }

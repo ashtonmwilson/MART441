@@ -11,7 +11,7 @@ function printBlanks()
   // call on random
   createRandomCardArray();
   // Loop
-  for(var i = 0; i < imageTags[i]).src= blankCardpath;
+  for(var i = 0; i < imageTags.lenth; i++)
   {
     document.getElementById(deckTags[i]).src= blankCardpath;
   }
@@ -21,7 +21,7 @@ function printBlanks()
 function createRandomCardArray()
 {
   //Building the card bank(array)
-  var actualCardpath= ["imgs/Face.png","imgs/Pattern12.png","imgs/Pattern23.png","imgs/Pattern34.png"]
+  var actualCardpath= ["imgs/Face.png","imgs/Pattern12.png","imgs/Pattern23.png","imgs/Pattern34.png","imgs/Pattern16.png","imgs/Pattern19.png","imgs/Pattern3.png", "imgs/Pattern15.png","imgs/Pattern20.png","imgs/fingerprint.png"];
   //limit images to appearing twice
   var count = [0,0];
   while(actualImages.length < 4)
@@ -31,11 +31,10 @@ function createRandomCardArray()
       // create an if statement that says if the total number added is less than 2, add image to array
       if(count[randomNumber] < 2)
       {
-        actualImages.push(actualImagePath[randomNumber] <2);
-        if(count[randomNumber] = count[randomNumber] + 1;
+        actualImages.push(actualImagePath[randomNumber]);
+        count[randomNumber] = count[randomNumber] + 1;
       }
   }
-}
 }
 function flipCard(number)
 {
