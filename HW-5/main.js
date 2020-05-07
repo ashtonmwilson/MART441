@@ -23,10 +23,10 @@ function createRandomImageArray()
   //Building the card bank(array)
   var actualCardPath= ["imgs/Face.png","imgs/Pattern12.png","imgs/Pattern23.png","imgs/Pattern34.png","imgs/Pattern16.png","imgs/Pattern19.png","imgs/Pattern3.png", "imgs/Pattern15.png","imgs/Pattern20.png","imgs/FingerPrint.png"];
   //limit images to appearing twice
-  var count = [0,0];
-  while(actualImages.length < 4)
+  var count = [0,0,0,0,0];
+  while(actualImages.length < 10)
   {
-      // get random number between 0 and total(4)
+      // get random number between 0 and total(10)
       var randomNumber = Math.floor(Math.random() * actualCardPath.length);
       // create an if statement that says if the total number added is less than 2, add image to array
       if(count[randomNumber] < 2)

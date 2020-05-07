@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Ashton Wilson's Homework#5 site</title>
+    <title>Ashton Wilson's Homework#6 site</title>
     <meta name="author" content="Ashton Wilson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
@@ -11,32 +11,36 @@
     </link>
 </head>
 
-<body onload="printBlanks();">
+<body onload="printBlanks();playerInfo();">
     <h1>Memory Game</h1>
-
-
+<!-- rows devided to organize the 4x4 playing field -->
     <div class="divTable">
         <div class="divTableBody">
             <div class="divTableRow">
-                <div class="divTableCell"><img src="imgs/Face.png" id="image1" width="250" height="200" onclick="flipImage(0);"></div>
-                <div class="divTableCell"><img src="imgs/Pattern12.png" id="image2" width="250" height="200" onclick="flipImage(1);"></div>
+                <div class="divTableCell"><img src="" id="image1" width="200" height="200" onclick="flipImage(0);"></div>
+                <div class="divTableCell"><img src="" id="image2" width="200" height="200" onclick="flipImage(1);"></div>
+                <div class="divTableCell"><img src="" id="image3" width="200" height="200" onclick="flipImage(2);"></div>
+                <div class="divTableCell"><img src="" id="image4" width="200" height="200" onclick="flipImage(3);"></div>
             </div>
             <div class="divTableRow">
-                <div class="divTableCell"><img src="imgs/Pattern23.png" id="image3" width="250" height="200" onclick="flipImage(2);"></div>
-                <div class="divTableCell"><img src="imgs/Pattern34.png" id="image4" width="250" height="200" onclick="flipImage(3);"></div>
+                <div class="divTableCell"><img src="" id="image5" width="200" height="200" onclick="flipImage(4);"></div>
+                <div class="divTableCell"><img src="" id="image6" width="200" height="200" onclick="flipImage(5);"></div>
+                <div class="divTableCell"><img src="" id="image7" width="200" height="200" onclick="flipImage(6);"></div>
+                <div class="divTableCell"><img src="" id="image8" width="200" height="200" onclick="flipImage(7);"></div>
             </div>
             <div class="divTableRow">
-                <div class="divTableCell"><img src="imgs/Pattern16.png" id="image5" width="250" height="200" onclick="flipImage(4);"></div>
-                <div class="divTableCell"><img src="imgs/Pattern23.png" id="image6" width="250" height="200" onclick="flipImage(5);"></div>
+                <div class="divTableCell"><img src="" id="image9" width="200" height="200" onclick="flipImage(8);"></div>
+                <div class="divTableCell"><img src="" id="image10" width="200" height="200" onclick="flipImage(9);"></div>
+                <div class="divTableCell"><img src="" id="image11" width="200" height="200" onclick="flipImage(10);"></div>
+                <div class="divTableCell"><img src="" id="image12" width="200" height="200" onclick="flipImage(11);"></div>
             </div>
             <div class="divTableRow">
-                <div class="divTableCell"><img src="imgs/Pattern12.png" id="image7" width="250" height="200" onclick="flipImage(6);"></div>
-                <div class="divTableCell"><img src="imgs/Face.png" id="image8" width="250" height="200" onclick="flipImage(7);"></div>
+                <div class="divTableCell"><img src="" id="image13" width="200" height="200" onclick="flipImage(12);"></div>
+                <div class="divTableCell"><img src="" id="image14" width="200" height="200" onclick="flipImage(13);"></div>
+                <div class="divTableCell"><img src="" id="image15" width="200" height="200" onclick="flipImage(14);"></div>
+                <div class="divTableCell"><img src="" id="image16" width="200" height="200" onclick="flipImage(15);"></div>
             </div>
-            <div class="divTableRow">
-                <div class="divTableCell"><img src="imgs/Pattern34.png" id="image9" width="250" height="200" onclick="flipImage(8);"></div>
-                <div class="divTableCell"><img src="imgs/Pattern16.png" id="image10" width="250" height="200" onclick="flipImage(9);"></div>
-            </div>
+
         </div>
     </div>
 
