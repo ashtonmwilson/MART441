@@ -4,7 +4,7 @@ var deckTags = ["image1","image2","image3","image4","image5","image6","image7","
 // making a blank image variable
 var blankCardpath = "imgs/Triangles.png";
 // actual images
-var actualImages = new Array([]);
+var actualImages = new Array();
 
 function printBlanks()
 {
@@ -38,6 +38,6 @@ function createRandomImageArray()
 }
 function flipCard(number)
 {
-  document.getElementById(imageTags[number]).src= actualImages[number];
+  document.getElementById(deckTags[number]).src= actualImages[number];
   //uses number pressed to change images....
 }
