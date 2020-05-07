@@ -44,7 +44,7 @@ function createRandomImageArray()
         var randomNumber = Math.floor(Math.random() * actualImagePath.length);
           // create an if statement that says if the total number added is less than 2, then
         // add the image to the actual image array
-        if(count[randomNumber] < 2)
+        if(count[randomNumber] < 4)
         {
             actualImages.push(actualImagePath[randomNumber]);
             // then add one to the array that makes sure only two images can be added
