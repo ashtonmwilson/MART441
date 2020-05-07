@@ -24,7 +24,7 @@ function createRandomImageArray()
   var actualCardPath= ["imgs/Face.png","imgs/Pattern12.png","imgs/Pattern23.png","imgs/Pattern34.png","imgs/Pattern16.png","imgs/Pattern19.png","imgs/Pattern3.png", "imgs/Pattern15.png","imgs/Pattern20.png","imgs/FingerPrint.png"];
   //limit images to appearing twice
   var count = [0,0];
-  while(actualImages.length < 4)
+  while(actualImages.length < 10)
   {
       // get random number between 0 and total(4)
       var randomNumber = Math.floor(Math.random() * actualCardPath.length);
