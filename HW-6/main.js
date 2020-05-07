@@ -1,9 +1,11 @@
+
+
 var imageNames =
 ["image1", "image2", "image3", "image4","image4", "image6",
 "image7", "image8","image9", "image10", "image12", "image13",
 "image14", "image15", "image16"];
 
-var blankImagePath = "imgs/search.jpg";
+var blankImagePath = "imgs/search.png";
 var firstNumber = -1;
 var secondNumber = -1;
 var score = 0;
@@ -32,11 +34,11 @@ function createRandomImageArray()
 {
     // create an array of actual images
     var actualImagePath = ["imgs/gears.png", "imgs/light.png", "imgs/music.png",
-  "imgs/tv.png", "imgs/phone.png", "imgs/clock.png", "imgs/key.png","imgs/sun.png"];
+  "imgs/tv.png", "imgs/phone.png", "imgs/clock.png", "imgs/key.png", "imgs/sun.png"];
     // create another array to make sure the images only get added twice
-    var count = [0,0];
+    var count = [0,0,0,0,0,0,0,0];
     // create a while statement to check to see if our actual image array is full
-    while(actualImages.length < 4)
+    while(actualImages.length < 16)
     {
         // get a random number between 0 and the number total number of images that we can choose from
         var randomNumber = Math.floor(Math.random() * actualImagePath.length);
@@ -72,7 +74,7 @@ function flipImage(number)
     if(actualImages[secondNumber] != actualImages[firstNumber] && firstNumber >= 0 && secondNumber >= 0)
     {
         score++;
-        setTimeout(imagesDisappear, 1000); // calls a method after 1 second
+        setTimeout(imagesDisappear, 4000); // calls a method after 1 second
     }
     // check to see if the images do match
     else if(actualImages[secondNumber] == actualImages[firstNumber] && firstNumber >= 0 && secondNumber >= 0)
@@ -100,7 +102,7 @@ function imagesDisappear()
     firstNumber = -1;
     secondNumber = -1;
 }
-
+// storing the input information from begining.html
 // add to the JSON from the textboxes
 function addToPlayer()
 {

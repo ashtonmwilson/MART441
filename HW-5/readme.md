@@ -7,4 +7,3 @@ Cool concept, I was glad to have the debugging order of operations lesson.
 * my wife is around all the time
 * thought corona would make things easier.
 *It seems like the next step will be debugging
-* once I figured out how to get all images to load, they took forever.
