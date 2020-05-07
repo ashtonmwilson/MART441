@@ -11,11 +11,12 @@ function printBlanks()
   // call on random
   createRandomImageArray();
   // Loop
-  for(var i = 0; i < deckTags.length; i++)
+  for(var i = 0; i < deckTags.lenth; i++)
   {
     document.getElementById(deckTags[i]).src= blankCardpath;
 
   }
+  alert(typeor(printBlanks));
 
 }
 
