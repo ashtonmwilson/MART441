@@ -14,7 +14,6 @@ function printBlanks()
   for(var i = 0; i < deckTags.length; i++)
   {
     document.getElementById(deckTags[i]).src= blankCardpath;
-
   }
 
 }
