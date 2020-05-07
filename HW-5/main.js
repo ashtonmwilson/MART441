@@ -29,7 +29,8 @@ function createRandomImageArray()
       // get random number between 0 and total(4)
       var randomNumber = Math.floor(Math.random() * actualCardPath.length);
       // create an if statement that says if the total number added is less than 2, add image to array
-      if(count[randomNumber] < 10)
+      if(count[randomNumber] < 2)
+      // this dicates that the image only appears < 2 times)
       {
         actualImages.push(actualCardPath[randomNumber]);
         count[randomNumber] = count[randomNumber] + 1;
