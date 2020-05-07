@@ -6,4 +6,4 @@ Cool concept, I was glad to have the debugging order of operations lesson.
 * working from home only
 * my wife is around all the time
 * thought corona would make things easier.
-*It seems like the next stip will be debugging
+*It seems like the next step will be debugging
